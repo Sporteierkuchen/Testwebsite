@@ -1,0 +1,81 @@
+.pekkabackground{
+
+background-image: url('../Bilder/pekka.jpg');
+background-repeat:no-repeat;
+background-size: 100% 100%;
+display: flex;
+justify-content: center;
+align-items: center;
+
+}
+
+.pekkacontent{
+
+width: 40%;
+height: auto;
+background-color: transparent;
+}
+
+.pekkazeile{
+
+width: 100%;
+height: auto;
+display: flex;
+justify-content: center;
+
+}
+
+.pekkaüberschrift{
+
+
+color: white;
+font-size: 2.5em;
+font-weight: 700;
+font-family: Arial, Helvetica, sans-serif;
+padding-bottom: 5%;
+text-align: center;
+
+}
+
+.pekkatext{
+
+
+color: white;
+font-size: 1.5em;
+font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+margin: 0%;
+
+
+}
+
+.pekkabutton{
+
+  box-shadow:inset 0px 1px 0px 0px #fce2c1;
+
+	background-color:#e67e22;
+	border-radius:6px;
+	border:1px solid #eeb44f;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Arial;
+	font-size: 16px;
+	font-weight:bold;
+	padding:6px 15px;
+	text-decoration:none;
+
+
+margin-top: 3%;
+
+}
+
+.pekkabutton:hover {
+
+	background-color:#fb9e25;
+}
+.pekkabutton:active {
+	position:relative;
+	top:1px;
+}
